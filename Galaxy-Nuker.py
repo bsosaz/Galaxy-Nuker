@@ -298,7 +298,7 @@ async def emojispamall(ctx, text: str):
                 emojified_text += char + " "
         guild = ctx.guild
         channels = guild.text_channels
-        amount = ecord[["emoji_spam_all_amount"]
+        amount = record["emoji_spam_all_amount"]
         coroutines = [
             asyncio.gather(*[channel.send(emojified_text) for _ in range(amount)])
             for channel in channels
