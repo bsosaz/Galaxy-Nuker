@@ -5,7 +5,7 @@
   "server_invite": "discord.gg/yourinvite",
   "role_amount_spam": 50,
   "owner_message_spam": 50,
-  "thread_spam_all_amount": 50,
+  "thread_spam_all_amount": 5,
   "emoji_spam_all_amount": 50,
   "channel_range": 50
 }
