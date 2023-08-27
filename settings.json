@@ -4,8 +4,8 @@
   "whitelist": [123],
   "server_invite": "discord.gg/yourinvite",
   "role_amount_spam": 50,
-  "owner_message_spam": 50,
-  "thread_spam_all_amount": 5,
+  "owner_message_spam": 50, # make sure to make them lower since it gets rate limited a lot and is pretty slow in some terms so make it a smaller quantity
+  "thread_spam_all_amount": 5, # this will get rate limited quickly
   "emoji_spam_all_amount": 50,
   "channel_range": 50
 }
